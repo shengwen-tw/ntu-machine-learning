@@ -1,4 +1,4 @@
-function logistic_hw
+function question18_20() 
 % Read dataset
 train_dataset = dlmread('hw3_train.dat',' ', 1, 0);
 verify_dataset = dlmread('hw3_test.dat',' ', 1, 0);
@@ -20,7 +20,6 @@ w = logistic_regression_stochastic(train_dataset, 0.001, 2000);
 Eout = evaluate_binary(verify_dataset, w);
 str = sprintf("Question 20: Eout with 0/1 error = %f", Eout);
 disp(str);
-
 end
 
 function w = logistic_regression(dataset, learning_rate, run_time)

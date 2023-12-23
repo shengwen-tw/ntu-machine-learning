@@ -1,4 +1,4 @@
-function pla_pocket_hw
+function question18_20() 
 % Read dataset
 train_dataset = dlmread('hw1_18_train.dat',' ', 1, 0);
 verify_dataset = dlmread('hw1_18_test.dat',' ', 1, 0);

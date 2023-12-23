@@ -1,4 +1,4 @@
-function pla_hw
+function question15_17() 
 % Read dataset
 dataset = dlmread('hw1_15_train.dat',' ', 1, 0);
 
